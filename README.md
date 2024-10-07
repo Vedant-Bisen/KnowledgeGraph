@@ -26,6 +26,7 @@ This repository contains the implementation of a **Retrieval-Augmented Generatio
 
 1. **Install dependencies**:
    ```bash
+   conda create -n Kgraph python==3.10
    pip install -r requirements.txt
    ```
 
