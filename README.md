@@ -44,6 +44,7 @@ This repository contains the implementation of a **Retrieval-Augmented Generatio
    export NEO4J_USERNAME="<your-username>"
    export NEO4J_PASSWORD="<your-password>"
    ```
+   Neo4j variables can be found at: [Neo4j Aura](https://console.neo4j.io/?product=aura-db#databases)
 
 3. **Run the FastAPI server**:
    ```bash
