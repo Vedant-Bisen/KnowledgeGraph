@@ -42,12 +42,11 @@ class GraphDatabaseManager:
 class LLMManager:
     def __init__(self):
         self.llm = ChatOllama(
-            model="llama3.1:8b-instruct-q4_0",
+            model="YourModel",
             temperature=0,
-            base_url="http://10.10.33.105:11434",
         )
         self.embedding = OllamaEmbeddings(
-            model="jina/jina-embeddings-v2-base-en:latest"
+            model="YourEmbeddingModel",
         )
         self.vector_index = Neo4jVector.from_existing_graph(
             embedding=self.embedding,
