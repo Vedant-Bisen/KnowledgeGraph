@@ -24,14 +24,17 @@ This repository contains the implementation of a **Retrieval-Augmented Generatio
   
 ## Setup
 
-Prerequisites
-Ollama installation: Install ollama and setup the llama3.2 1b model as well as the jina/jina-embeddings-v2-base-de:latest
-[Llm Link](https://ollama.com/library/llama3.2:1b)
-[Embedding model Link](https://ollama.com/jina/jina-embeddings-v2-base-en)
+### Prerequisites
+
+1. **Ollama Installation**: Follow the instructions to install `Ollama` and set up the `LLaMA 3.2 1B` model as well as the `jina/jina-embeddings-v2-base-en` model for document embeddings.
+   - [Ollama Install](https://ollama.com/download)
+   - [LLaMA 3.2 1B Model](https://ollama.com/library/llama3.2:1b)
+   - [Jina Embeddings Model](https://ollama.com/jina/jina-embeddings-v2-base-en)
 
 1. **Install dependencies**:
    ```bash
    conda create -n Kgraph python==3.10
+   conda activate Kgraph
    pip install -r requirements.txt
    ```
 
